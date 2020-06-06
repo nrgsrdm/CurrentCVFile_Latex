@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% CV Nergis ERDEM 2020 %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+%% AltaCV uses the fontawesome5 and academicon fonts
+%% and packages.
+%% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Lato}
+\else
+  % If using pdflatex:
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+% \colorlet{name}{black}
+\colorlet{tagline}{VividPurple}
+\colorlet{heading}{VividPurple}
+\colorlet{headingrule}{VividPurple}
+% \colorlet{subheading}{PastelRed}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+\begin{document}
+\name{Nergis ERDEM}
+\tagline{}
+\photo{3.5cm}{cv_photo}
+\personalinfo{
+    \printinfo{\faBirthdayCake}{29 years}
+    \email{nerdem@uludag.edu.tr}
+    \phone{+905363040252}\\
+    \mailaddress{Bursa Uludag University, Electrical-Electronic Engineering, Floor:5, Room:522}
+    \location{16059, Nilufer/BURSA}
+    \linkedin{www.linkedin.com/in/nergis-e-77492068}
+    \github{github.com/nrgsrdm}
+    \homepage{https://scholar.google.com/citations?user=Akur1AcAAAAJ&hl=en}
+}
+%%
+%\begin{fullwidth}
+%\makecvheader
+%\end{fullwidth}
+%%
+\makecvheader
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+%% Set the left/right column width ratio to 6:4.
+\columnratio{0.4}
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{1}
+\cvsection{proposal}
+%%%%%%%%%%%%%%%%%%%%%%%%
+I am currently a PhD student in the fields of signal and system, and machine learning. As part of my academic career, I am looking for a researcher position in statistics, data science and machine learning starting from September 2020. I want to be part of your TUBİTAK 1001-Development of the Machine Learning Based Joint Forecasting-Scheduling Method for Massive Access Project as \textbf{a self-funded researcher} in Machine Learning position. I attend your webinar related to your TUBİTAK 1001 Project. It impressed me and I want to be a part of this project. With the help of this project, I can have a chance to improve  my research interests. I have already received a scholarship from TUBITAK that supports me during my PhD studies.
+
+%%%%%%Formation%%%%%%%
+
+\cvsection{Education}
+%%%%%%%%%%%%%
+%Formation 1
+%%%%%%%%%%%%%
+\cvevent{ }{Doctor of Philosophy in Electronic Engineering  -- Bursa Uludag University }{Sept 2014 -- ongoing}{}{Research Field: Signals - Systems and Machine Learning, GPA: 3.46/4}
+\medskip
+%%%%%%%%%%%%
+%Formation 2
+%%%%%%%%%%%%%
+\cvevent{ }{MS Degree in Satellite Communications and Remote Sensing -- Istanbul Technical University (ITU)}{Sept 2012 -- June 2014}{}{Research Field: Microwave Imaging, Biomedical Imaging, GPA: 3.81/4}
+\medskip
+%%%%%%%%%%%%%
+%Formation 3
+%%%%%%%%%%%%%
+\cvevent{ }{BSc Degree in Electronics Engineering -- Bursa Uludag University }{Sept 2008 -- June 2012}{}{GPA: 3.28/4}
+
+\cvsection{Research \& Teaching Experience}
+%%%%%%%%%%%%%
+%Experience 1
+%%%%%%%%%%%%%
+\cvevent{}{Academic Advisor -- 5th TUBITAK International Unmanned Aerial Vehicle Competition }{April 2020 -- ...}{Bursa, Turkey}
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item[--]   \small {coordination of team members}
+    \item[--]   \small {helping software \& hardware design of UAV}
+    \item Techs : Python, Hardware Design
+\end{itemize}
+
+\cvevent{}{Research and Teaching Assistant -- Bursa Uludag University }{January 2014 -- ...}{Bursa, Turkey}
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item[--]   \small {teaching and giving support to Electrical Circuit Analysis and that
+    course's lab, and trying to finish my PhD at the same university }
+    \item[--]   \small {Editorial Assistant-proofreading of engineering related articles in Uludag University Journal of The Faculty of Engineering Feb 2016-Sep 2019}
+    \item Techs : Latex, Pspice, Microsoft Office
+    \item Skills : Data analysis, Teaching, Pedagogy, Teamwork, Evaluation spirit, Communication, Knowledge transfer
+\end{itemize}
+%%%%%%%%%%%%%
+%Project 1
+%%%%%%%%%%%%%
+\cvevent{}{Project Assistant -- Istanbul Technical University}{Sep 2013-Jan 2014}{ITU, Istanbul, Turkey}
+\begin{itemize}
+  \setlength{\itemindent}{0.5em}
+    \item[--]  \small {Clinical Testing of Microwave Tomography Device that screens breast cancer tumors}
+  \item Techs : MATLAB
+   \item Skills : CST Studio, Teamwork
+\end{itemize}
+\cvevent{}{Engineer -- MITOS Medical Tech. A.S.}{Jul 2013 -- Sep 2013}{ITU, Istanbul, Turkey}
+\begin{itemize}
+    \setlength{\itemindent}{0.5em}
+    \item Techs : MATLAB
+   \item Skills : CST Studio
+\end{itemize}
+\cvsection{Strengths}
+\cvtag{Hard-working}
+\cvtag{Persuasive}
+\cvtag{Goal-Oriented}
+\cvtag{Motivator}
+%%%%%%%%%%%%%Awards&Recognition%%%%%%%%%%%%%%
+
+\cvsection{Awards \& Recognition}
+*TUBITAK-2211 Graduate Scholarship, Apr 2013-...
+
+*Presented extended abstract "Hemorrhagic Brain Strokes Detection via Microwave Surface Impedance Method" in Progress In Electromagnetics Research Symposium, PIERS 2017 in Singapore, 19-22 November, 2017,
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Skills%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvsection{Skills}
+\cvskill{Communication Systems}{4}
+\cvskill{Learning potential}{4}
+\cvskill{Organisation}{4}
+\cvskill{Probability}{4}
+\cvskill{Statistic}{4}
+\cvskill{Data mining}{3}
+\cvskill{Data Analysis}{3}
+\cvskill{Big data}{3}
+\cvskill{Optimisation}{3}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Skills %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Programming Skills}
+\cvskill{Microsoft Office}{4}
+\cvskill{Scilab/Matlab}{4}
+\cvskill{C}{3}
+\cvskill{Python}{3}
+\cvskill{C++}{2}
+\cvskill{SQL}{2}
+\cvskill{Hadoop}{2}
+\cvskill{Git}{2}
+\smallskip
+\cvsection{Languages}
+\cvskill{Turkish}{5}
+% \divider
+\cvskill{English}{4}
+% \divider
+\cvskill{German}{3}
+%%%%%%Volunteer%%
+\cvsection{A Day of My Life}
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+\hspace*{-1em}  %% quick hack to move the wheelchart a bit left
+\wheelchart{1.5cm}{0.5cm}{%
+  10/13em/accent!30/Solving work-related problems,
+  25/9em/accent!60/Sleeping \& dreaming about work,
+  5/11em/accent!10/\footnotesize\\[1ex]Lecture,
+  20/11em/accent!40/Spending time with family,
+  5/8em/accent!20/\footnotesize Reading,
+  30/9em/accent/Coding\& Writing ,
+  5/8em/accent!20/Cooking
+}
+\cvsection{Referees}
+% \cvref{name}{email}{mailing address}
+\cvref{Dr.\ Tuncay Ertas}{tertas@uludag.edu.tr}{Bursa Uludag University, Electrical-Electronic Engineering}
+\cvref{Dr.\ Figen Ertas}{fertas@uludag.edu.tr}{Bursa Uludag University, Electrical-Electronic Engineering},
+\cvref{Dr.\ Berrak Sisman}{berrak_sisman@sutd.edu.sg}{ISTD Pillar, Singapore University of Technology and Design (SUTD)},
+\cvref{Dr.\ Ibrahim Akduman}{akduman@itu.edu.tr}{Istanbul Technical University, Electronic and Communication Engineering}
+\cvref{Dr.\ Onan Guren}{onan.guren@ikcu.edu.tr}{Izmır Katip Celebi University, Biomedical Engineering}
+
+\end{paracol}
+\end{document}
